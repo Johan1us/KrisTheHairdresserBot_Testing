@@ -1,56 +1,71 @@
 ## intent:greet
 - hey
-- hello
+- hallo
 - hi
-- good morning
-- good evening
-- hey there
+- goedemorgen
+- goedenavond
+- hee daar
+- hoi
+- Hoi
 
 ## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
+- tot ziens
+- vaarwel
+- tot kijk
+- tot later
+- doei
+- daag
+- dag
+- later
 
 ## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
+- ja
+- inderdaad
+- natuurlijk
+- dat klinkt goed
 - correct
+- perfect
+- erg goed
+- geweldig
+- prachtig
+- top
+- ok
 
 ## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
+- geen
+- nooit
+- Ik denk het niet.
+- dat vind ik niet leuk
+- geenszins
+- niet echt
+- nee
+- nee doe maar niet
+- nee, ik weet genoeg. Dank je wel
+- nee, ik weet genoeg, dank je wel
 
 ## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+- Ben je een bot?
+- ben je een mens
+- praat ik met een bot?
+- Praat ik met een mens
+- ben je imbiciel?
+- ben je een bot
+- ben je een bot?
+
+## intent:give_demo
+- hoi, kun je een demo geven?
+- geef een demo
+- kun je iets demonstreren?
+- Kun je wat truckjes laten zien
+- Laat eens wat zien
+
+## intent:opening_hours
+- vanaf hoelaat zijn jullie open?
+- wat zijn de openingstijden?
+- hoe laat kan ik bij jullie terecht?
+- wanneer sluit je
+- tot hoelaat zijn jullie open?
+- tot hoe laat zijn jullie open?
+- tot hoe laat zijn jullie open
+- wanneer gaan jullie open?
+- hoe laat open jullie de deuren?

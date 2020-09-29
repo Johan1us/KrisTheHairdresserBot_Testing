@@ -1,32 +1,55 @@
+actions:
+- utter_demo
+- utter_demo1
+- utter_future_help
+- utter_glad_to_help
+- utter_goodbye
+- utter_greet
+- utter_i_can_help_with
+- utter_iamabot
+- utter_opening_hours
+- utter_something_else_i_can_help_with
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
+- greet
+- give_demo
+- opening_hours
+- bot_challenge
+- deny
+- goodbye
+- affirm
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
+  utter_demo:
+  - text: Ik laat je graag zien wat ik kan.
+  utter_demo1:
+  - text: Je kan bij mij bijvoorbeeld informatie opvragen zoals openingstijden. Probeer
+      maar.
+  utter_future_help:
+  - text: Als er iets is wat ik in de toekomst voor je kan doen, laat het me dan weten.
+  - text: Mocht ik in de toekomst iets voor je kunnen doen, stuur me dan een berichtje.
+  utter_glad_to_help:
+  - text: Geen probleem, ik ben blij dat ik kon helpen
+  - text: Graag gedaan! Fijn dat ik kon assisteren.
   utter_goodbye:
-  - text: "Bye"
-
+  - text: Tot ziens!
+  - text: Tot de volgende keer!
+  utter_greet:
+  - text: Hallo, waar kan ik je mee helpen?
+  - text: Hoi, waarmee kan ik je van dienst zijn?
+  utter_i_can_help_with:
+  - text: 'Ik kan je helpen met: - vragen over openingstijden - het geven van een
+      demo'
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+  - text: Ik ben een bot die het fijn vind om mensen te helpen.
+  - text: Ik ben een bot die graag mensen helpt.
+  utter_my_excuses:
+  - text: Mijn excuses.
+  utter_no_problem:
+  - text: Geen probleem
+  utter_opening_hours:
+  - text: Wij zijn door de weeks geopend van 10:00 tot 18:00
+  utter_something_else_i_can_help_with:
+  - text: Is er iets anders waarmee ik je kan helpen?
+  - text: Kan ik je nog ergens anders mee helpen?
 session_config:
-  session_expiration_time: 60
   carry_over_slots_to_new_session: true
+  session_expiration_time: 60
